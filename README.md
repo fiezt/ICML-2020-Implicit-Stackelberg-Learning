@@ -37,27 +37,27 @@ The `experiments` directory includes the following experiments:
 * Polynomial continuous game with zero-sum objectives
 
 
-The GAN-Code directory includes all code for GAN experiments. The shell scripts can be run for experiments on
+The `GAN-Code` directory includes all code for GAN experiments. The shell scripts can be run for experiments on
 * Mixture of guassian generative adversarial networks.
 * MNIST dataset generative adversarial networks.
 
 The files contained are briefly as follows:
-* ComputationalTools.py: Tools for computing JacobianVector products.
-* DCGAN.py: DCGAN architecture for MNIST experiments.
-* EigenvalueTools.py: Tools for computing eigenvalues of relevant game objects.
-* EvaluationMNIST.ipynb: Notebook to compute inception score from checkpoints of MNIST experiments and sample fake images.
-* EvaluationMoG.ipynb: Notebook to compute eigenvalues and generate figures from checkpoints of MoG experiments.
-* GameGradients.py: Tools to build game Jacbian and get player gradients.
-* GameLosses.py: Networks for MoG experiments helper function to generate generator and discriminator loss.
-* LeaderUpdateTools.py: Functionality to compute the leader gradient update.
-* LoggingTools.py: Tools for logging some statistics while running experiments.
-* MNIST_Simulation.py: Main script to run MNIST experiments.
-* MoG.py: Data generation for Gaussian experiments and plotting tools.
-* MoG_Simulation.py: Main script to run MoG experiments.
-* ObjectiveTools.py: Gan loss functions.
-* Utils.py: Various simple helper functions.
-* inception_evaluation.py: Code for computing inception score on MNIST.
-* run_mnist.sh: Shell script to run batch of MNIST experiments.
-* run_mog_batch.sh: Shell script to run batch of MoG experiments.
-* train_mnist_classifier.py: Code to train MNIST classifier for inception score computation.
+* `ComputationalTools.py`: Tools for computing JacobianVector products.
+* `DCGAN.py`: DCGAN architecture for MNIST experiments.
+* `EigenvalueTools.py`: Tools for computing eigenvalues of relevant game objects.
+* `EvaluationMNIST.ipynb`: Notebook to compute inception score from checkpoints of MNIST experiments and sample fake images.
+* `EvaluationMoG.ipynb`: Notebook to compute eigenvalues and generate figures from checkpoints of MoG experiments.
+* `GameGradients.py`: Tools to build game Jacbian and get player gradients.
+* `GameLosses.py`: Networks for MoG experiments helper function to generate generator and discriminator loss.
+* `LeaderUpdateTools.py`: Functionality to compute the leader gradient update.
+* `LoggingTools.py`: Tools for logging some statistics while running experiments.
+* `MNIST_Simulation.py`: Main script to run MNIST experiments.
+* `MoG.py`: Data generation for Gaussian experiments and plotting tools.
+* `MoG_Simulation.py`: Main script to run MoG experiments.
+* `ObjectiveTools.py`: Gan loss functions.
+* `Utils.py`: Various simple helper functions.
+* `inception_evaluation.py`: Code for computing inception score on MNIST.
+* `run_mnist.sh`: Shell script to run batch of MNIST experiments.
+* `run_mog_batch.sh`: Shell script to run batch of MoG experiments.
+* `train_mnist_classifier.py`: Code to train MNIST classifier for inception score computation.
 
