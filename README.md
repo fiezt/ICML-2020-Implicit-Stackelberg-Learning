@@ -1,6 +1,6 @@
 ## Paper Information
 Implicit Learning Dynamics in Stackelberg Games:
-Equilibria Characterization, Convergence Analysis, and Empirical Study, ICML 2020. Tanner Fiez, Benjamin Chasnov, Lillian Ratliff.
+Equilibria Characterization, Convergence Analysis, and Empirical Study. ICML 2020. Tanner Fiez, Benjamin Chasnov, Lillian Ratliff.
 
 ## Stackelberg learning dynamics
 Hierarchical learning for machine learning:
@@ -21,7 +21,7 @@ x(t+1) = x(t) - lr1(t) * (D1f1(x(t), y(t)) - D21f2^T(x(t), y(t))(D22f2)^{-1}(x(t
 # Follower:
 y(t+1) = y(t) - lr2(t) * D2f2(x(t),y(t))
 ```
-where the leader's update is the total derivative of cost `f1` where from the implicit function theorem we have `Dr = D22f2^-1 * D21f2`, where `D22f2^-1`.
+where the leader's update is the total derivative of cost `f1` where from the implicit function theorem we have `Dr = D22f2^-1 * D21f2`.
 
 ## Installation
 We recommend running
@@ -38,7 +38,7 @@ The `experiments` directory includes the following experiments:
 
 
 The GAN-Code directory includes all code for GAN experiments. The shell scripts can be run for experiments on
-* Mixture of guassian generative adversarial networks (GANs)
+* Mixture of guassian generative adversarial networks.
 * MNIST dataset generative adversarial networks.
 
 The files contained are briefly as follows:
