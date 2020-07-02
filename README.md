@@ -3,7 +3,6 @@ Implicit Learning Dynamics in Stackelberg Games:
 Equilibria Characterization, Convergence Analysis, and Empirical Study, ICML 2020. Tanner Fiez, Benjamin Chasnov, Lillian Ratliff.
 
 ## Stackelberg learning dynamics
-
 Hierarchical learning for machine learning:
 ```
 # Leader:
